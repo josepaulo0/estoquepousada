@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Fornecedores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastrar Fornecedores</h1>
+        <form id="supplierForm">
+            <input type="text" id="supplierName" placeholder="Nome do Fornecedor" required>
+            <input type="text" id="supplierContact" placeholder="Contato do Fornecedor" required>
+            <input type="text" id="supplierProduct" placeholder="Produto Fornecido" required>
+            <input type="number" id="supplierQuantity" placeholder="Quantidade" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+       
+        <a href="index.html">Ir para Produtos</a>
+
+
+        <table id="supplierTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Contato</th>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="fornecedores.js"></script>
+</body>
+</html>
+
+
